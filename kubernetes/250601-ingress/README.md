@@ -1,3 +1,5 @@
+# Ingress 和 NIC(Nginx Ingress Controller) 初探
+
 ## Ingress
 
 Ingress 是 Kubernetes 中管理外部访问集群内部服务的 API 对象，主要提供 HTTP/HTTPS 路由、负载均衡、SSL/TLS 终止和基于名称的虚拟主机等功能。
@@ -32,7 +34,7 @@ Nginx Ingress Controller 是 Ingress 规则的具体实现者，它使用 Nginx 
 
 3. Controller 从队列获取事件，生成配置并触发 Nginx 重载。
 
-## 一个最简单的例子
+## 最小可工作示例
 
 Ingress 配置：
 
